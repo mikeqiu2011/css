@@ -38,6 +38,7 @@
 
       .container--1 {
         /* STARTER */
+
         font-family: sans-serif;
         background-color: #ddd;
         font-size: 30px;
@@ -54,20 +55,30 @@
         /* gap: 30px; */
         column-gap: 30px;
         row-gap: 60px;
+
+        display: none;
       }
 
       .container--2 {
-        display: none;
+        /* display: none; */
         /* STARTER */
         font-family: sans-serif;
         background-color: black;
         font-size: 40px;
         margin: 100px;
 
-        width: 1000px;
+        width: 800px;
         height: 600px;
 
         /* CSS GRID */
+        display: grid;
+        grid-template-columns: 125px 200px 125px;
+        grid-template-rows: 250px 100px;
+
+        /* aligning tracks inside container 
+        distributing empty space*/
+        justify-content: center;
+        align-content: center;
       }
     </style>
   </head>
