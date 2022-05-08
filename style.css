@@ -182,14 +182,8 @@ a:active {
 }
 
 nav a:link {
-  /* background-color: orangered;
-  margin: 20px;
-  padding: 20px;
-
-  display: block; */
-
   margin-right: 30px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   display: inline-block;
 }
 
@@ -236,47 +230,8 @@ h2::before {
   right: -25px;
 }
 
-/* FLOATS */
-.author {
-  font-style: italic;
-  font-size: 18px;
-  margin-top: 10px;
-  margin-left: 20px;
-  float: left;
-}
-
-.author-img {
-  float: left;
-  margin-bottom: 10px;
-}
-
-h1 {
-  float: left;
-}
-
-nav {
-  float: right;
-}
-
-.clearfix::after {
-  content: '';
-  clear: both;
-  display: block;
-}
-
-article {
-  /* background-color: green; */
-  width: 825px;
-  float: left;
-}
-
-aside {
-  width: 300px;
-  /* background-color: red; */
-  float: right;
-}
-
-footer {
-  /* background-color: yellow; */
-  clear: both;
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
