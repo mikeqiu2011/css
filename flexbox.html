@@ -12,15 +12,13 @@
         flex-grow: 0;
         flex-shrink: 1;
         flex-basis: auto; */
-        /* flex-basis: 200px; */
-        flex-shrink: 0;
-        flex-grow: 1;
+        flex: 0 0 200px;
       }
 
       .el--1 {
         background-color: blueviolet;
         align-self: flex-start;
-        flex-grow: 2; /* get double of other ele of remaining space */
+        /*flex-grow: 2; /* get double of other ele of remaining space */
       }
       .el--2 {
         background-color: orangered;
@@ -63,7 +61,7 @@
         align-items: center; /* verticle - cross axis */
         justify-content: flex-start; /* horizontal - main axis */
 
-        /* gap: 10px; */
+        gap: 10px;
       }
     </style>
   </head>
