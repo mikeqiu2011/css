@@ -230,12 +230,14 @@ h2::before {
   justify-content: space-between;
   gap: 75px;
   align-items: flex-start;
+  margin-bottom: 60px;
 }
 
 aside {
-  flex: 0 0 300px;
+  flex: 1;
 }
 
 article {
   flex: 0 0 825px;
+  /* margin-bottom: 0; */
 }
