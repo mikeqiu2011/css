@@ -44,7 +44,7 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding: 50px 40px;
-  width: 500px;
+  /* width: 500px; */
 }
 
 /* SMALLER ELEMENTS */
@@ -272,6 +272,7 @@ aside {
   width: 300px;
   /* background-color: red; */
   float: right;
+  box-sizing: border-box;
 }
 
 footer {
