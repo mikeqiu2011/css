@@ -242,3 +242,9 @@ h2::before {
   gap: 20px;
   margin-bottom: 15px;
 }
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
