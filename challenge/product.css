@@ -131,7 +131,28 @@ body {
   background-color: #fff;
 }
 
+.price-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-box {
+  display: flex;
+  gap: 20px;
+}
+
 .image {
+  width: 250px;
+}
+
+.summary {
+  width: 250px;
+}
+
+.details {
+  width: 250px;
+}
+/* .image {
   width: 250px;
   float: left;
 }
@@ -151,4 +172,4 @@ body {
 
 .product-description {
   clear: both;
-}
+} */
