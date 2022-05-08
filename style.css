@@ -2,6 +2,7 @@
   /* border-top: 10px solid #1098ad; */
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /* PAGE SECTIONS */
@@ -75,6 +76,7 @@ h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 p {
@@ -272,7 +274,6 @@ aside {
   width: 300px;
   /* background-color: red; */
   float: right;
-  box-sizing: border-box;
 }
 
 footer {
