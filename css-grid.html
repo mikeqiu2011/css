@@ -14,7 +14,7 @@
       }
       .el--3 {
         background-color: green;
-        /* height: 150px; */
+        height: 150px;
       }
       .el--4 {
         background-color: goldenrod;
@@ -30,6 +30,8 @@
       }
       .el--8 {
         background-color: crimson;
+        grid-column: 2 / 3;
+        grid-row: 1/2;
       }
 
       .container--1 {
@@ -44,8 +46,8 @@
         /* grid-template-columns: 2fr 1fr 1fr auto; */
         /* grid-template-rows: 300px 200px; */
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: 1fr auto;
-        height: 500px;
+        grid-template-rows: 1fr 1fr;
+        /* height: 500px; */
 
         /* gap: 30px; */
         column-gap: 30px;
