@@ -14,14 +14,13 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
 
   margin: 0 auto;
 }
 
 .main-header {
   background-color: #f7f7f7;
-  background-color: red;
   padding: 20px 40px;
   margin-bottom: 60px;
 }
@@ -258,12 +257,25 @@ nav {
   float: right;
 }
 
-/* .clear {
-  clear: both;
-} */
-
 .clearfix::after {
   content: '';
   clear: both;
   display: block;
+}
+
+article {
+  /* background-color: green; */
+  width: 825px;
+  float: left;
+}
+
+aside {
+  width: 300px;
+  /* background-color: red; */
+  float: right;
+}
+
+footer {
+  /* background-color: yellow; */
+  clear: both;
 }
