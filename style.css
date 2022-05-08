@@ -248,3 +248,8 @@ h2::before {
   justify-content: space-between;
   align-items: flex-start;
 }
+
+.related-post {
+  display: flex;
+  align-items: center;
+}
